@@ -80,3 +80,7 @@ npm-debug.log
 
 # user docker compose overrides
 docker-compose.local.*
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
